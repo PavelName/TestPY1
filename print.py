@@ -403,13 +403,14 @@ all_even = True
 
 # print("вход выполнен!")
 
-n = int(input())
-total = 0
-i = 1
+# n = int(input())
+# total = 0
+# i = 1
 
-while i <= n:
-    total += i
-    i += 1
-print(f" сумма чисел от 1 до {n} равна {total}")
+# while i <= n:
+#     total += i
+#     i += 1
+# print(f" сумма чисел от 1 до {n} равна {total}")
 
 
+# Проверка пороля!
