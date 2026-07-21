@@ -394,7 +394,7 @@ all_even = True
 
 # while count > 0:
 #     print(count)
-#     count -= 2
+#     count -= 2N
 
 # ansver = ''
 
@@ -414,3 +414,26 @@ all_even = True
 
 
 # Проверка пороля!
+
+
+# name = input()
+# counter = 0
+
+# while 'S' not in name:
+#     counter += 1
+#     name = input()
+
+# print(counter)
+# num = int(input())
+# total = 0
+
+# while abs(num) <= 5:
+#     total += num
+#     num = int(input())
+
+# print(total)
+
+i = 5
+while i <= 11:
+    print('Python awesome!')
+    i += 1
