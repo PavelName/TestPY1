@@ -433,7 +433,23 @@ all_even = True
 
 # print(total)
 
-i = 5
-while i <= 11:
-    print('Python awesome!')
-    i += 1
+# i = 5
+# while i <= 11:
+#     print('Python awesome!')
+#     i += 1
+# num = int(input())
+# counter = 0
+
+# while '0' not in str(num):
+#     counter += 1
+#     num = int(input())
+
+# print(counter)
+
+num = int(input())
+counter = 0
+
+while '0' not in str(num):
+    counter += 1
+
+print(counter)
