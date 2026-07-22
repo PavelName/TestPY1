@@ -454,11 +454,19 @@ all_even = True
 
 # print(counter)
 
-num = int(input())
-total = 0
+# num = int(input())
+# total = 0
 
-while num > -4:
-    num = int(input())
-    total += num
+# while num > -4:
+#     num = int(input())
+#     total += num
 
-print(total)
+# print(total)
+
+i = 7
+a = 5
+while i <  11:
+    a += i
+    i += 2
+
+print(a)
