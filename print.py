@@ -446,10 +446,19 @@ all_even = True
 
 # print(counter)
 
+# num = int(input())
+# counter = 0
+
+# while '0' not in str(num):
+#     counter += 1
+
+# print(counter)
+
 num = int(input())
-counter = 0
+total = 0
 
-while '0' not in str(num):
-    counter += 1
+while num > -4:
+    num = int(input())
+    total += num
 
-print(counter)
+print(total)
