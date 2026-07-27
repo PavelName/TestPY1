@@ -463,10 +463,16 @@ all_even = True
 
 # print(total)
 
-i = 7
-a = 5
-while i <  11:
-    a += i
-    i += 2
+# i = 7
+# a = 5
+# while i <  11:
+#     a += i
+#     i += 2
 
-print(a)
+# print(a)
+
+total = 1
+while total < 10:
+    num =int(input())
+    total *= num
+    print(total)
