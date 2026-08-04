@@ -471,8 +471,43 @@ all_even = True
 
 # print(a)
 
-total = 1
-while total < 10:
-    num =int(input())
-    total *= num
-    print(total)
+# total = 1
+# while total < 10:
+#     num =int(input())
+#     total *= num
+#     print(total)
+
+# import torch
+# # x = torch.tensor([-1, 3, 2], dtype=torch.float32)
+# # y = x + 5
+# # z = y * 2
+
+# # print(z)
+
+# print(torch.__version__) 
+# print("CUDA доступна:", torch.cuda.is_available())
+
+# import torch
+
+# # Создаём тензор
+# x = torch.tensor([1, 2, 3], dtype=torch.float32)
+# print("Тензор:", x)
+# print("Устройство:", x.device)
+
+# # Простая операция (как в твоём примере)
+# y = x + 5
+# z = y * 2
+# print("Результат операций:", z)
+
+# import torch
+# x = torch.tensor([1, 2, 3])
+
+# print(x)
+# print(type(x))
+
+import numpy as np
+import torch
+
+np_array = np.array([7, 8, 9])
+
+print(f"NumPy array:, np.array")
