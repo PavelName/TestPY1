@@ -1,0 +1,6 @@
+data/
+*.tar.gz
+*.zip
+*.pth
+*.h5
+*.onnx
