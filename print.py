@@ -505,9 +505,240 @@ all_even = True
 # print(x)
 # print(type(x))
 
-import numpy as np
-import torch
+# import numpy as np
+# import torch
 
-np_array = np.array([7, 8, 9])
+# np_array = np.array([7, 8, 9])
 
-print(f"NumPy array:, np.array")
+# print(f"NumPy array:, np.array")
+
+# num = int(input())
+# while num > 0:
+#     last_digin = num % 10
+#     num //= 10
+#     print(last_digin, sep='=', end='')
+
+
+# num = int(input())
+# while num > 0:
+#     last_digit = num % 10
+#     if last_digit % 2 == 0:
+#         print(last_digit)
+#     num //= 10
+
+# num = 12345
+# prod = 1
+# while num != 0:
+#     last_digirt = num % 10
+#     prod *= last_digirt
+#     num //= 10
+
+# print(prod)
+
+# num = 123456789
+# total = 0
+# while num != 0:
+#     last_digit = num % 10
+#     if last_digit > 4:
+#         total += 1
+
+#     num = num // 10
+# print(total)
+
+# num = 725
+# while num != 0:
+#     last_digit = num % 10
+#     num //= 10
+#     print(last_digit, sep='', end='$')
+
+# num = 586
+# while num > 0:
+#     last_digit = num % 10
+#     print(last_digit, sep='*', end='#')
+#     num //= 10
+#     print()
+
+# n = 12345
+# while n > 0:
+#     gigit = n % 10
+#     print(gigit)
+#     n //= 10
+
+# n = int(input())
+# reverse_n = 0
+# while n > 0:
+#     digits = n % 10
+#     reverse_n = reverse_n * 10 + digits
+#     n //= 10
+
+# print(reverse_n)
+
+# number = int(input())
+# max_digit = -1
+# min_digit = 10
+
+# while number > 0:
+#     digit = number % 10
+#     if digit > max_digit:
+#         max_digit = digit
+#     if digit < min_digit:
+#         min_digit = digit
+#     number //= 10
+
+# print('Максимальная цифра равна', max_digit )
+# print('Минимальная цифра равна', min_digit )
+
+# n = int(input())
+
+# original_n = n
+
+# sum_digit = 0
+# count_digit = 0
+# prod_digit = 1
+
+# while n > 0:
+#     digit = n % 10
+#     sum_digit += digit
+#     prod_digit *= digit
+#     count_digit += 1
+#     n //= 10
+
+# average = sum_digit / count_digit
+
+# first_digit = int(str(original_n)[0])
+# last_digit = original_n % 10
+
+# sum_first_last = first_digit + last_digit
+
+# print(sum_digit)
+# print(count_digit)
+# print(prod_digit)
+# print(average)
+# print(first_digit)
+# print(sum_first_last)
+
+# n = int(input())
+
+# first_digit = n % 10
+
+# all_same = True
+# while n > 0:
+#     digin = n % 10
+#     if digin != first_digit:
+#         all_same = False
+#         break
+#     n //= 10
+
+# if all_same:
+#     print("Yes")
+# else:
+#     print("No") 
+
+# n = int(input())
+# prev = -1
+# is_sorted = True
+
+# while n > 0:
+#     digit = n % 10
+#     if prev != 0 and digit < prev:
+#         is_sorted = False
+#         break
+#     prev = digit
+#     n //= 10
+
+# if is_sorted:
+#     print('YES')
+# else:
+#     print("NO")
+
+# n = input()
+
+# count = 0
+
+# for digit_char in n:
+#     digit = int(digit_char)
+#     if digit % 2 == 0 and digit != 0:
+#         count += 1
+#         print(f"{count}-я четная цифра равна {digit}")
+
+# if count == 0:
+#     print('Четных цифр в числе нет')
+
+# num = 3281
+# while num != 0:
+#     print(num % 10, end= '')
+#     num //= 100
+#     if num != 0:
+#         continue
+
+# num = 364
+# while num != 0:
+#     print(num % 10, end='')
+#     if num % 10 == '3':
+#         break
+#     num //= 10
+
+# print()
+# print('Program the end!')
+
+# for i in range(10):
+#     print(i, end='*')
+#     if i > 6: 
+# #break
+
+# i = 100
+# while i > 0:
+#     if i == 40:
+#         break
+#     print(i, end='*')
+#     i -= 20
+
+# n = 10
+# while n > 0:
+#     n -= 1
+#     if n == 2:
+#         continue
+#     print(n, end='*')
+
+# result = 0
+# for i in range(10):
+#     if i % 2 == 0:
+#         continue
+#     result += i
+
+# print(result)
+
+# mult = 1
+# for i in range(1, 11):
+#     if i % 2 == 0:
+#         continue
+#     if i % 9 == 0:
+#         break1
+#     mult *= i
+
+# print(mult)
+
+# n = int(input())
+
+# for i in range(2, n + 1):
+#     if n % i == 0:
+#         print(i)
+#         break
+# num = 3
+# while num < 8:
+#     num += 1
+# else:
+#     print('Цикл завершен.')
+
+# print(num)
+
+# a = "13356"
+# d = 4
+# #print(a > d)
+# print(len(a))
+
+n = int(input())
+if n % 2 == 0:
+    print(n, '-четное число!')
+else:
+    print(n, '-нечетное число!')

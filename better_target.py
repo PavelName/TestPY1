@@ -20,7 +20,7 @@ cap = cv2.VideoCapture(0)     # MaixCam2 как USB-камера; при нео�
 master = mavutil.mavlink_connection("udpin:0.0.0.0:14550")
 master.wait_heartbeat()
 
-last_target_time = time.time()
+last_target_time = time.time() 
 track_loss_count = 0
 
 def capture_frame():
