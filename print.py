@@ -737,8 +737,34 @@ all_even = True
 # #print(a > d)
 # print(len(a))
 
-n = int(input())
-if n % 2 == 0:
-    print(n, '-четное число!')
+# n = int(input())
+# if n % 2 == 0:
+#     print(n, '-четное число!')
+# else:
+#     print(n, '-нечетное число!')
+
+# num = 3
+# total = 0
+# for i in range(num):
+#     if i  % 2 == i:
+#         total += 1
+# else:
+#     print(total)
+
+# print(total + 1)
+
+# num = 4
+# while num < 10:
+#     num += 2
+#     print(num)
+# else:
+#     print('Loop the tnd')
+
+num = 7
+while num < 12:
+    num +=2
+    if num == 11:
+        break
+    print(num)
 else:
-    print(n, '-нечетное число!')
+    print('Loop the end!')
