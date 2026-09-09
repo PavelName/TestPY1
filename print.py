@@ -761,10 +761,54 @@ all_even = True
 #     print('Loop the tnd')
 
 num = 7
-while num < 12:
-    num +=2
-    if num == 11:
-        break
-    print(num)
-else:
-    print('Loop the end!')
+# while num < 12:
+#     num +=2
+#     if num == 11:
+#         break
+#     print(num)
+# else:
+#     print('Loop the end!')
+
+# num = 6
+# while True:
+#     num += 1
+#     if num >= 5:
+#         break
+#     print(num)
+# else:
+#     print('Loop the end!')
+
+# for i in range(5):
+#     print(str(i) * 2)
+#     if i >= 2:
+#         break
+# f = range(2, 10, 5)
+# print(list(f))
+
+# saleries = {
+#     'John': 1200,
+#     'Vary': 500,
+#     'Svetenr': 10000,
+#     'Lizen': 8000
+
+# }
+# res = saleries['John']
+# res_1 = saleries['Vary']
+
+# print(res)
+# print(res_1)
+
+# n = int(input())
+# total = 0
+# for _ in range(n):
+#     num = int(input())
+#     total += num
+# print(total)
+# print(total / n if n > 0 else 0)
+
+# 
+
+def scuare(number):
+    res = number ** 2
+    return res
+print(scuare(int(input())))
