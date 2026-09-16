@@ -840,7 +840,8 @@ num = 7
 #     for j in range(3, 6):
 #         print(i, j)
 
-for i in range(2):
-    print(i, end='*')
-    for j in range(2):
-        print('/', end='+')
+# for i in range(2):
+#     print(i, end='*')
+#     for j in range(2):
+#         print('/', end='+')
+
