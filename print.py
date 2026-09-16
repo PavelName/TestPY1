@@ -808,7 +808,39 @@ num = 7
 
 # 
 
-def scuare(number):
-    res = number ** 2
-    return res
-print(scuare(int(input())))
+# def scuare(number):
+#     res = number ** 2
+#     return res
+# print(scuare(int(input())))
+
+# n = int(input())
+# lines = []
+# for _ in range(n):
+#     lines.append(input())
+
+# for i in range(len(lines) -1, -1, -1):
+#     print(lines[i])
+
+# for i in range(2):
+#     for j in range(3):
+#         print('C' * i + '+' * j)      
+  
+# for i in range(1, 2):
+#     print(i * 'C')
+
+#     for j in range(2, 4):
+#         print(j, '@')
+
+#     for k in range(3, 1, -1):
+#         print(k * '%')
+
+# print()
+
+# for i in range(1, 4):
+#     for j in range(3, 6):
+#         print(i, j)
+
+for i in range(2):
+    print(i, end='*')
+    for j in range(2):
+        print('/', end='+')
