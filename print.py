@@ -902,3 +902,19 @@ num = 7
 #         print('*', end='')
 #     print()
 
+a = int(input())
+b = int(input())
+
+for num in range(a, b + 1):
+    if num < 2:
+        continue
+
+    is_prime = True
+
+    for d in range(2, int(num ** 0.5) + 1):
+        if num % d == 0:
+            is_prime = False
+            break
+
+    if is_prime:
+        print(num)
