@@ -902,19 +902,45 @@ num = 7
 #         print('*', end='')
 #     print()
 
-a = int(input())
-b = int(input())
+# a = int(input())
+# b = int(input())
 
-for num in range(a, b + 1):
-    if num < 2:
-        continue
+# for num in range(a, b + 1):
+#     if num < 2:
+#         continue
 
-    is_prime = True
+#     is_prime = True
 
-    for d in range(2, int(num ** 0.5) + 1):
-        if num % d == 0:
-            is_prime = False
-            break
+#     for d in range(2, int(num ** 0.5) + 1):
+#         if num % d == 0:
+#             is_prime = False
+#             break
 
-    if is_prime:
-        print(num)
+#     if is_prime:
+#         print(num)
+
+# n = int(input())
+# total_summ = 0
+
+# for i in range(1, n + 1):
+#     factorial = 1
+#     for j in range(1, i + 1):
+#         factorial *= j
+#     total_summ += factorial
+
+# print(total_summ)
+
+# n = int(input())
+# m = int(input())
+
+# found = False
+# for banana in range(1, n):
+#     for diamond in range(1, n):
+#         for deer in range(1, n):
+#             if banana + 3 * diamond + 2 * deer == m:
+#                 print(f"{banana} + 3x{diamond} + 2x{deer} = {m}")
+#                 found = True
+
+# if not found:
+#     print("При заданных n и m решений не существует.")
+
