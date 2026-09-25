@@ -944,3 +944,38 @@ num = 7
 # if not found:
 #     print("При заданных n и m решений не существует.")
 
+# a = int(input())
+# b = int(input())
+
+# max_num = 0
+# max_sum = 0
+
+# for n in range(a, b + 1):
+#     current_summ = 0
+
+#     for b in range(1, n + 1):
+#         if n % b == 0:
+#             current_summ += b
+
+#     if  current_summ >= max_sum:
+#         max_sum = current_summ
+#         max_num = n
+
+# print(max_num, max_sum)
+# n = int(input())
+
+# for i in range(1, n + 1):
+#     for j in range(1, i + 1):
+#         print(j, end='')
+
+#     for j in range(i - 1, 0, -1):
+#         print(j, end='')
+
+#     print()
+
+n = int(input())
+
+for h in range(24):
+    m = h ** n
+    if m <= 59:
+        print(f'{h:03d}:{m:02d}')
