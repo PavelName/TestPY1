@@ -973,9 +973,72 @@ num = 7
 
 #     print()
 
-n = int(input())
+# n = int(input())
 
-for h in range(24):
-    m = h ** n
-    if m <= 59:
-        print(f'{h:03d}:{m:02d}')
+# for h in range(24):
+#     m = h ** n
+#     if m <= 59:
+#         print(f'{h:03d}:{m:02d}')
+
+# n = int(input())
+
+# while n > 9:
+#     current_summ = 0
+#     temp = n
+
+#     while temp > 0:
+#         digit = temp % 10
+#         current_summ += digit
+#         temp //= 10
+
+#     n = current_summ
+
+# print(n)
+# s = 'abcdefg'
+# print(s[0] + s[2] + s[4] + s[6])
+
+# s = 'abcdefg'
+# print(s[0]*3 + s[-1]*3 + s[3]*2 + s[3]*2)
+
+#s = '01234567891011121314151617'
+
+# s = '01234567891011121314151617'
+# for i in range(0, len(s), 5):
+#     print(s[i], end='')
+
+# s = '01234567891011121314151617'
+# for i in range(0, len(s), 5):
+#     print(f"i={i}, s[{i}]='{s[i]}'")
+
+# s = "In 2010, someone paid 10k Bitcoin for two pizzas."
+# print(s)
+
+# s = "In 2010, someone paid 10k Bitcoin for two pizzas."
+# for i in range(0, len(s)):
+#     if s[i] == 'w':
+
+#         print(s[i])
+
+# n = 'abcdefghijklmnop'
+# for i in range(0, len(n), 2):
+
+#       print(n[i])
+
+# s = input()
+# found = False
+# for n in s:
+#     if '0' <= n <= '9':
+#         found = True
+#         break
+
+# if found:
+#     print("Цифра")
+# else:
+#     print("Цифр нет")
+
+s = input()
+n = s.count('+')
+m = s.count('*')
+print(f"Символ + встречается {n} раз")
+print(f"Символ * встречается {m} раз")
+
