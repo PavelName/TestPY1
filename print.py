@@ -1043,3 +1043,19 @@ num = 7
 # print(f"Символ * встречается {m} раз")
 
 
+s = input().lower()
+
+vowels = 'ауоыиэяюе'
+consonants = 'бвгджзйклмнпрстфхцчшщ'
+
+count_vowels = 0
+count_consonants = 0
+
+for char in s:
+    if char in vowels:
+        count_vowels += 1
+    elif char in consonants:
+        count_consonants += 1
+
+print('Количество гласных букв равно', count_vowels)
+print('Количество согласных букв равно', count_consonants)
