@@ -2,6 +2,7 @@ import numpy as np
 import time
 import csv
 import matplotlib.pyplot as plt
+import pandas as pd
 
 # --- Конфигурация ---
 KP_X = 1.2                  # коэффициент P-регулятора по X
@@ -25,7 +26,7 @@ def simulate_target(t):
 
 # Эмуляция TOF (дистанция в метрах)
 def simulate_tof(t):
-    base_dist = 18.0
+    base_dist = 12.0
     noise = 1.5 * (np.random.rand() - 0.5)
     osc = 4.0 * np.sin(t * 0.8)
     return max(1.0, base_dist + osc + noise)
@@ -146,8 +147,8 @@ if __name__ == "__main__":
     sim = AutopilotSim()
     t0 = time.time()
     try:
-        while True:
-            t = time.time() - t0
+        while time.time() - t0 < 60:
+            t = time.time() - t0 
             bbox = simulate_target(t)
             dist = simulate_tof(t)
             temp = simulate_thermal()
@@ -162,6 +163,9 @@ if __name__ == "__main__":
 
             time.sleep(0.02)  # ~50 Гц
     except KeyboardInterrupt:
-        print("\nСимуляция остановлена. Сохраняем логи и строим графики...")
+         print("\nСимуляция прервана вручную.")
+
+    finally:
+        print("Сохраняем логи и строим графики...")
         sim.save_log()
         plot_logs()
