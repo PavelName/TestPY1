@@ -1060,11 +1060,27 @@ num = 7
 # print('Количество гласных букв равно', count_vowels)
 # print('Количество согласных букв равно', count_consonants)
 
-n = int(input())
-result = ''
+# n = int(input())
+# result = ''
 
-while n > 0:
-    result = str(n % 2) + result
-    n = n // 2
+# while n > 0:
+#     result = str(n % 2) + result
+#     n = n // 2
 
-print(result)
+# print(result)
+
+check = 'Чек'
+name_prod = input()
+price_prod_kilo = int(input())
+weight_prod = int(input())
+amount_money = int(input())
+
+total = price_prod_kilo * weight_prod
+change = amount_money - total
+
+
+print(check)
+print(f'{name_prod} - {weight_prod}кг - {price_prod_kilo}руб/кг')
+print(f'Итого: {total}руб')
+print(f'Внесено: {amount_money}руб')
+print(f'Сдача: {change}руб')
