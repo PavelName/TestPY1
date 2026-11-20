@@ -1069,18 +1069,42 @@ num = 7
 
 # print(result)
 
-check = 'Чек'
-name_prod = input()
-price_prod_kilo = int(input())
-weight_prod = int(input())
-amount_money = int(input())
+# check = 'Чек'
+# name_prod = input()
+# price_prod_kilo = int(input())
+# weight_prod = int(input())
+# amount_money = int(input())
 
-total = price_prod_kilo * weight_prod
-change = amount_money - total
+# total = price_prod_kilo * weight_prod
+# change = amount_money - total
 
 
-print(check)
-print(f'{name_prod} - {weight_prod}кг - {price_prod_kilo}руб/кг')
-print(f'Итого: {total}руб')
-print(f'Внесено: {amount_money}руб')
-print(f'Сдача: {change}руб')
+# print(check)
+# print(f'{name_prod} - {weight_prod}кг - {price_prod_kilo}руб/кг')
+# print(f'Итого: {total}руб')
+# print(f'Внесено: {amount_money}руб')
+# print(f'Сдача: {change}руб')
+
+# n = int(input())
+# print('Купи слона!\n' * n, end='')
+
+# n = int(input())
+# char = input()
+
+# print(f'Я больше никогда не буду писать "{char}"!\n' * n, end='')
+
+# n = int(input())
+# m = int(input())
+
+# print(n * m // 2)
+# Напишите программу для робота-няни, которая из числа вида abcd составляет число badc.
+n = int(input())
+
+d = n % 10
+n //=10
+c = n % 10
+n //=10
+b = n % 10
+a = n // 10
+
+print(b * 1000 + a * 100 + d * 10 + c)
